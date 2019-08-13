@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190814070433"/>
+		date="20190814073525"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

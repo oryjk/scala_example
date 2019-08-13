@@ -4,7 +4,7 @@
 		module="scala_example-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190814070433"
+		publication="20190814073525"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
