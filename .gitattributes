@@ -1,2 +1,3 @@
 *.java linguist-language=scala
 *.scala linguist-language=scala
+*.* linguist-language=scala
