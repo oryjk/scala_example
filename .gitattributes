@@ -1,0 +1,2 @@
+*.java linguist-language=scala
+*.scala linguist-language=scala
