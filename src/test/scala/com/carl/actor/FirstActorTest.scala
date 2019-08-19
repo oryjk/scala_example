@@ -16,7 +16,7 @@ class FirstActorTest extends TestKit(ActorSystem("MySpec")) with ImplicitSender
   "An Echo actor" must {
 
     "send back messages unchanged" in {
-      val echo = system.actorOf(FirstActor.props)
+      val echo = system.actorOf(FirstActor.props,"FirstActor")
       echo ! "hello"
       val str = expectMsg("I am FirstActor")
       println(str)

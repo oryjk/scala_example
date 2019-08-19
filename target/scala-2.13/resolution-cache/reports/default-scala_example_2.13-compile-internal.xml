@@ -7,13 +7,50 @@
 		revision="0.1"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190818163647"/>
+		date="20190818191533"/>
 	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-persistence_2.13">
+			<revision name="2.6.0-M6" status="release" pubdate="20190816191034" resolver="public" artresolver="public" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0-M6" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4236" time="1239" location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-persistence_2.13/ivy-2.6.0-M6.xml" searched="true" original-local-location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-persistence_2.13/ivy-2.6.0-M6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.pom"/>
+				<caller organisation="default" name="scala_example_2.13" conf="compile-internal, compile, provided, optional" rev="2.6.0-M6" rev-constraint-default="2.6.0-M6" rev-constraint-dynamic="2.6.0-M6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-persistence_2.13" type="jar" ext="jar" status="successful" details="" size="921876" time="11304" location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-persistence_2.13/jars/akka-persistence_2.13-2.6.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf-v3_2.13">
+			<revision name="2.6.0-M6" status="release" pubdate="20190816190539" resolver="public" artresolver="public" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0-M6" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1915" time="1235" location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-protobuf-v3_2.13/ivy-2.6.0-M6.xml" searched="true" original-local-location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-protobuf-v3_2.13/ivy-2.6.0-M6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-persistence_2.13" conf="default, compile, runtime, master" rev="2.6.0-M6" rev-constraint-default="2.6.0-M6" rev-constraint-dynamic="2.6.0-M6" callerrev="2.6.0-M6"/>
+				<artifacts>
+					<artifact name="akka-protobuf-v3_2.13" type="jar" ext="jar" status="successful" details="" size="1650457" time="29124" location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-protobuf-v3_2.13/jars/akka-protobuf-v3_2.13-2.6.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.9.0" status="release" pubdate="20190712081150" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="5309" time="1134" location="/Users/carlwang/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.9.0.xml" searched="true" original-local-location="/Users/carlwang/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.9.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-protobuf-v3_2.13" conf="compile, runtime" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="2.6.0-M6"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="successful" details="" size="1635813" time="3864" location="/Users/carlwang/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-3.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.13">
-			<revision name="2.6.0-M6" status="release" pubdate="20190816190708" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0-M6" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="2.6.0-M6" status="release" pubdate="20190816190708" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0-M6" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3369" time="0" location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/ivy-2.6.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.pom"/>
 				<caller organisation="default" name="scala_example_2.13" conf="compile-internal, compile, provided, optional" rev="2.6.0-M6" rev-constraint-default="2.6.0-M6" rev-constraint-dynamic="2.6.0-M6" callerrev="0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-persistence_2.13" conf="default, compile, runtime, master" rev="2.6.0-M6" rev-constraint-default="2.6.0-M6" rev-constraint-dynamic="2.6.0-M6" callerrev="2.6.0-M6"/>
 				<artifacts>
 					<artifact name="akka-actor_2.13" type="jar" ext="jar" status="no" details="" size="5119241" time="0" location="/Users/carlwang/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/jars/akka-actor_2.13-2.6.0-M6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.jar"/>
@@ -51,6 +88,7 @@
 				<metadata-artifact status="no" details="" size="2659" time="0" location="/Users/carlwang/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.pom"/>
 				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.13" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.9.0"/>
 				<caller organisation="default" name="scala_example_2.13" conf="compile-internal, compile, provided, optional" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-persistence_2.13" conf="default, compile, runtime, master" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="2.6.0-M6"/>
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="default, compile, runtime, master" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="2.6.0-M6"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5693401" time="0" location="/Users/carlwang/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0.jar">
