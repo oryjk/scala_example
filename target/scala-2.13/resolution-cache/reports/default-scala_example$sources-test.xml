@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190818192215"/>
+		date="20191218161104"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-persistence_2.13">
 			<revision name="2.6.0-M6" status="release" pubdate="20190816191034" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0-M6" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
