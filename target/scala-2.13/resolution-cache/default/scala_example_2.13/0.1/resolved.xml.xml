@@ -4,7 +4,7 @@
 		module="scala_example_2.13"
 		revision="0.1"
 		status="integration"
-		publication="20190818191533"
+		publication="20200211175641"
 	>
 		<description>
 		scala_example
@@ -32,9 +32,12 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.13.0" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.13.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.30" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.13" rev="2.6.0-M6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-persistence_2.13" rev="2.6.0-M6" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.9.8" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.13" rev="2.6.0-M6" conf="test->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.13" rev="3.0.8" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-core" rev="3.1.0" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

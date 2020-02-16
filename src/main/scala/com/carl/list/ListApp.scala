@@ -39,5 +39,28 @@ object ListApp extends App {
   private val incList: List[Int] = incAll(xs)
   println(incList)
 
+  private val value: List[String] = List("abc", "bcd", "bbb", "ccc", "ddd").dropWhile(_.startsWith("b"))
+  println(s""""abc", "bcd", "bbb", "ccc","ddd" dropWhile $value""")
+
+  private val value1: List[Int] = List(1, 2, 3, 4, 5, -1, -2, 3, 4, 5).takeWhile(_ >= 0)
+  println(s"1, 2, 3, 4, 5, -1, -2, 3, 4, 5 take while $value1")
+
+  private val value2: List[Int] = List(1, 2, 3, 4, 5, -1, -2, 3, 4, 5).dropWhile(_ >= 0)
+  println(s"1, 2, 3, 4, 5, -1, -2, 3, 4, 5 take while $value2")
+
+  private val foldLeftResult: Int = List(1, 2, 3, 4).foldLeft(2)(_ + _)
+  println(foldLeftResult)
+
+  //用foldLeft实现一个反转
+  private val source = List(1, 2, 3, 4)
+  //我们想到得到的结果应该是 List(4,3,2,1)
+  private val target: List[Int] = source.foldLeft(List[Int]()) { (x, y) => y :: x }
+  println(target)
+  //因为foldLeft第一个参数是要构造的对象的类型,所以这里反转的话,还是要一个list,所以这里放一个空的list即可
+  //然后第二个参数是函数,返回值是第一个参数的类型
+
+  private val foldRight: List[Int] = source.foldRight(List[Int]()) { (x, y) => x :: y }
+  println(foldRight)
+
 
 }

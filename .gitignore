@@ -52,7 +52,6 @@ project/plugins/project/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_13_2_6_0_M6_jar.xml
-.idea/sonarlint/
+.idea/*
 project/target/*
 target/*
