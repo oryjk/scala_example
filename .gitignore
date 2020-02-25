@@ -58,3 +58,4 @@ target/*
 target
 .github
 # change in master
+# add in branch_fast_forward
