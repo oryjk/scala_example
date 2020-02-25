@@ -2144,47 +2144,137 @@
 [debug] == resolving dependencies default#scala_example$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.4!config.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.13;2.6.0-M6!akka-persistence_2.13.jar(src)
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.9.0!protobuf-java.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6!akka-protobuf-v3_2.13.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.30!slf4j-api.jar(src)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe/config/1.3.4/srcs/config-sources.jar
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.9.0/srcs/jackson-annotations-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.13;0.9.0!scala-java8-compat_2.13.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.13;2.6.0-M6!akka-actor_2.13.jar(src)
-[debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.9.8/srcs/jackson-core-sources.jar
-[debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.9.8/srcs/jackson-databind-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar(src)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-persistence_2.13/2.6.0-M6/srcs/akka-persistence_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.13;3.0.8!scalatest_2.13.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.0!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.9.10!byte-buddy-agent.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.13;3.0.8!scalactic_2.13.jar(src)
-[debug] 	[NOT REQUIRED] org.mockito#mockito-core;3.1.0!mockito-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.13;1.2.0!scala-xml_2.13.jar(src)
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.9.10!byte-buddy.jar(src)
-[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.6!objenesis.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.13;2.6.0-M6!akka-testkit_2.13.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.0!scala-compiler.jar(src)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.google.protobuf/protobuf-java/3.9.0/srcs/protobuf-java-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6-sources.jar
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-protobuf-v3_2.13/2.6.0-M6/srcs/akka-protobuf-v3_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6-sources.jar
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.13/0.9.0/srcs/scala-java8-compat_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6!akka-protobuf-v3_2.13.jar(src) (3057ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.slf4j/slf4j-api/1.7.30/srcs/slf4j-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar.sha1
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.13;0.9.0!scala-java8-compat_2.13.jar(src) (3665ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-actor_2.13/2.6.0-M6/srcs/akka-actor_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src) (4107ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.9.8/srcs/jackson-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src) (4262ms)
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence_2.13;2.6.0-M6!akka-persistence_2.13.jar(src) (5892ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.9.8/srcs/jackson-databind-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.30!slf4j-api.jar(src) (6776ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scalatest/scalatest_2.13/3.0.8/srcs/scalatest_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0-sources.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.9.0!protobuf-java.jar(src) (13256ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.0!scala-reflect.jar(src)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scalactic/scalactic_2.13/3.0.8/srcs/scalactic_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.4!config.jar(src) (23531ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy-agent/1.9.10/srcs/byte-buddy-agent-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10-sources.jar
+[info] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy-agent;1.9.10!byte-buddy-agent.jar(src) (3152ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.mockito/mockito-core/3.1.0/srcs/mockito-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.13;3.0.8!scalactic_2.13.jar(src) (16261ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scala-lang.modules/scala-xml_2.13/1.2.0/srcs/scala-xml_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(src) (13902ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(src) (28980ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy/1.9.10/srcs/byte-buddy-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.13;2.6.0-M6!akka-actor_2.13.jar(src) (32867ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-testkit_2.13/2.6.0-M6/srcs/akka-testkit_2.13-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.13;2.6.0-M6!akka-testkit_2.13.jar(src) (4038ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.objenesis/objenesis/2.6/srcs/objenesis-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.13;1.2.0!scala-xml_2.13.jar(src) (11593ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.0!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar
+[info] 	[SUCCESSFUL ] org.objenesis#objenesis;2.6!objenesis.jar(src) (3984ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0-sources.jar
+[info] 	[SUCCESSFUL ] org.mockito#mockito-core;3.1.0!mockito-core.jar(src) (49662ms)
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(src) (85558ms)
-[debug] :: resolution report :: resolve 151ms :: artifacts dl 85563ms
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(src) (78641ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10-sources.jar
+[info] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy;1.9.10!byte-buddy.jar(src) (146468ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-sources.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.13;3.0.8!scalatest_2.13.jar(src) (176642ms)
+[debug] :: resolution report :: resolve 107ms :: artifacts dl 186482ms
 [debug] 	report for default#scala_example$sources;0.1 compile produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example$sources-compile.xml
 [debug] 	report for default#scala_example$sources;0.1 runtime produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example$sources-runtime.xml
 [debug] 	report for default#scala_example$sources;0.1 test produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example$sources-test.xml
@@ -2196,4 +2286,4 @@
 [debug] 	report for default#scala_example$sources;0.1 plugin produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example$sources-plugin.xml
 [debug] 	report for default#scala_example$sources;0.1 pom produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example$sources-pom.xml
 [debug] 	report for default#scala_example$sources;0.1 scala-tool produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example$sources-scala-tool.xml
-[debug] 	resolve done (151ms resolve - 85563ms download)
+[debug] 	resolve done (107ms resolve - 186482ms download)

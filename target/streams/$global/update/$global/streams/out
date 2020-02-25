@@ -19,8 +19,41 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.30 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.30
-[debug] 	found org.slf4j#slf4j-api;1.7.30 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.30 {compile=[default(compile)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.slf4j/slf4j-api/1.7.30/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-api;1.7.30
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[debug] 	public: found md file for org.slf4j#slf4j-api;1.7.30
+[debug] 		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom (1.7.30)
+[debug] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.30!slf4j-api.pom(pom.original) (1215ms)
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.30 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.30 {}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.slf4j/slf4j-parent/1.7.30/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-parent;1.7.30
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[debug] 	public: found md file for org.slf4j#slf4j-parent;1.7.30
+[debug] 		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom (1.7.30)
+[debug] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.30!slf4j-parent.pom(pom.original) (2282ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.slf4j/slf4j-parent/1.7.30/jars/slf4j-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] CLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+[debug] 		tried /Users/carlwang/.ivy2/local/org.slf4j/slf4j-api/1.7.30/jars/slf4j-api.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+[debug] 	found org.slf4j#slf4j-api;1.7.30 in public
 [debug] == resolving dependencies default#scala_example_2.13;0.1->org.slf4j#slf4j-api;1.7.30 [compile->runtime]
 [debug] == resolving dependencies default#scala_example_2.13;0.1->org.slf4j#slf4j-api;1.7.30 [compile->compile]
 [debug] == resolving dependencies default#scala_example_2.13;0.1->org.slf4j#slf4j-api;1.7.30 [compile->master]
@@ -28,8 +61,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.13;2.6.0-M6 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.13;2.6.0-M6
-[debug] 	found com.typesafe.akka#akka-actor_2.13;2.6.0-M6 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.13;2.6.0-M6 {compile=[default(compile)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-actor_2.13/2.6.0-M6/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.13;2.6.0-M6
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.pom
+[debug] 	public: found md file for com.typesafe.akka#akka-actor_2.13;2.6.0-M6
+[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.pom (2.6.0-M6)
+[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.pom
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.13;2.6.0-M6!akka-actor_2.13.pom(pom.original) (1677ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-actor_2.13/2.6.0-M6/jars/akka-actor_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.jar
+[debug] 	found com.typesafe.akka#akka-actor_2.13;2.6.0-M6 in public
 [debug] 	[2.6.0-M6] com.typesafe.akka#akka-actor_2.13;2.6.0-M6
 [debug] == resolving dependencies default#scala_example_2.13;0.1->com.typesafe.akka#akka-actor_2.13;2.6.0-M6 [compile->runtime]
 [debug] == resolving dependencies default#scala_example_2.13;0.1->com.typesafe.akka#akka-actor_2.13;2.6.0-M6 [compile->compile]
@@ -52,8 +97,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.4
-[debug] 	found com.typesafe#config;1.3.4 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.3.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe/config/1.3.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe#config;1.3.4
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.pom
+[debug] 	public: found md file for com.typesafe#config;1.3.4
+[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.pom (1.3.4)
+[debug] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.pom
+[debug] 	[SUCCESSFUL ] com.typesafe#config;1.3.4!config.pom(pom.original) (1041ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe/config/1.3.4/bundles/config.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar
+[debug] 	found com.typesafe#config;1.3.4 in public
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.13;2.6.0-M6->com.typesafe#config;1.3.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.13;2.6.0-M6->com.typesafe#config;1.3.4 [compile->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.13;2.6.0-M6->com.typesafe#config;1.3.4 [compile->compile]
@@ -66,8 +123,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.13;0.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.13;0.9.0
-[debug] 	found org.scala-lang.modules#scala-java8-compat_2.13;0.9.0 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.13;0.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.13/0.9.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang.modules#scala-java8-compat_2.13;0.9.0
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom
+[debug] 	public: found md file for org.scala-lang.modules#scala-java8-compat_2.13;0.9.0
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom (0.9.0)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.13;0.9.0!scala-java8-compat_2.13.pom(pom.original) (1510ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.13/0.9.0/jars/scala-java8-compat_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar
+[debug] 	found org.scala-lang.modules#scala-java8-compat_2.13;0.9.0 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.13;2.6.0-M6->org.scala-lang.modules#scala-java8-compat_2.13;0.9.0 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -97,8 +166,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-persistence_2.13;2.6.0-M6 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-persistence_2.13;2.6.0-M6
-[debug] 	found com.typesafe.akka#akka-persistence_2.13;2.6.0-M6 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-persistence_2.13;2.6.0-M6 {compile=[default(compile)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-persistence_2.13/2.6.0-M6/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe.akka#akka-persistence_2.13;2.6.0-M6
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.pom
+[debug] 	public: found md file for com.typesafe.akka#akka-persistence_2.13;2.6.0-M6
+[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.pom (2.6.0-M6)
+[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.pom
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence_2.13;2.6.0-M6!akka-persistence_2.13.pom(pom.original) (2153ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-persistence_2.13/2.6.0-M6/jars/akka-persistence_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.jar
+[debug] 	found com.typesafe.akka#akka-persistence_2.13;2.6.0-M6 in public
 [debug] 	[2.6.0-M6] com.typesafe.akka#akka-persistence_2.13;2.6.0-M6
 [debug] == resolving dependencies default#scala_example_2.13;0.1->com.typesafe.akka#akka-persistence_2.13;2.6.0-M6 [compile->runtime]
 [debug] == resolving dependencies default#scala_example_2.13;0.1->com.typesafe.akka#akka-persistence_2.13;2.6.0-M6 [compile->compile]
@@ -128,8 +209,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6
-[debug] 	found com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-protobuf-v3_2.13/2.6.0-M6/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.pom
+[debug] 	public: found md file for com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6
+[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.pom (2.6.0-M6)
+[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.pom
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6!akka-protobuf-v3_2.13.pom(pom.original) (1530ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-protobuf-v3_2.13/2.6.0-M6/jars/akka-protobuf-v3_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.jar
+[debug] 	found com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6 in public
 [debug] 	[2.6.0-M6] com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6
 [debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.13;2.6.0-M6->com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6->com.google.protobuf#protobuf-java;3.9.0 [compile->master(compile)]
@@ -141,8 +234,62 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;3.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;3.9.0
-[debug] 	found com.google.protobuf#protobuf-java;3.9.0 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.protobuf#protobuf-java;3.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.google.protobuf/protobuf-java/3.9.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.google.protobuf#protobuf-java;3.9.0
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.pom
+[debug] 	public: found md file for com.google.protobuf#protobuf-java;3.9.0
+[debug] 		=> https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.pom (3.9.0)
+[debug] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.pom
+[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.9.0!protobuf-java.pom(pom.original) (1438ms)
+[debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-parent;3.9.0 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.protobuf#protobuf-parent;3.9.0 {}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.google.protobuf/protobuf-parent/3.9.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.google.protobuf#protobuf-parent;3.9.0
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.pom
+[debug] 	public: found md file for com.google.protobuf#protobuf-parent;3.9.0
+[debug] 		=> https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.pom (3.9.0)
+[debug] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.pom
+[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-parent;3.9.0!protobuf-parent.pom(pom.original) (1538ms)
+[debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-bom;3.9.0 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.protobuf#protobuf-bom;3.9.0 {}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.google.protobuf/protobuf-bom/3.9.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.google.protobuf#protobuf-bom;3.9.0
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.pom
+[debug] 	public: found md file for com.google.protobuf#protobuf-bom;3.9.0
+[debug] 		=> https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.pom (3.9.0)
+[debug] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.pom
+[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-bom;3.9.0!protobuf-bom.pom(pom.original) (2356ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.google.protobuf/protobuf-bom/3.9.0/jars/protobuf-bom.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-bom/3.9.0/protobuf-bom-3.9.0.jar
+[debug] 		tried /Users/carlwang/.ivy2/local/com.google.protobuf/protobuf-parent/3.9.0/jars/protobuf-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/com/google/protobuf/protobuf-parent/3.9.0/protobuf-parent-3.9.0.jar
+[debug] 		tried /Users/carlwang/.ivy2/local/com.google.protobuf/protobuf-java/3.9.0/bundles/protobuf-java.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar
+[debug] 	found com.google.protobuf#protobuf-java;3.9.0 in public
 [debug] == resolving dependencies com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6->com.google.protobuf#protobuf-java;3.9.0 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.13;2.6.0-M6->com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6 [compile->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.13;2.6.0-M6->com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6 [compile->compile]
@@ -172,7 +319,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.pom(pom.original) (1427ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.pom(pom.original) (2080ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-base;2.9.8 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-base;2.9.8 {}
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson/jackson-base/2.9.8/ivys/ivy.xml
@@ -184,7 +331,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-base/2.9.8/jackson-base-2.9.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-base/2.9.8/jackson-base-2.9.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-base/2.9.8/jackson-base-2.9.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-base;2.9.8!jackson-base.pom(pom.original) (858ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-base;2.9.8!jackson-base.pom(pom.original) (3013ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-bom;2.9.8 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-bom;2.9.8 {}
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson/jackson-bom/2.9.8/ivys/ivy.xml
@@ -196,7 +343,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.8/jackson-bom-2.9.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.8/jackson-bom-2.9.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.8/jackson-bom-2.9.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-bom;2.9.8!jackson-bom.pom(pom.original) (1023ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-bom;2.9.8!jackson-bom.pom(pom.original) (2779ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.9.1.2 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.9.1.2 {}
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.9.1.2/ivys/ivy.xml
@@ -208,7 +355,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.2/jackson-parent-2.9.1.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.2/jackson-parent-2.9.1.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.2/jackson-parent-2.9.1.2.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.9.1.2!jackson-parent.pom(pom.original) (917ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.9.1.2!jackson-parent.pom(pom.original) (2291ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;34 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml#oss-parent;34 {}
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml/oss-parent/34/ivys/ivy.xml
@@ -220,7 +367,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/34/oss-parent-34.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/34/oss-parent-34.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/34/oss-parent-34.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;34!oss-parent.pom(pom.original) (1974ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;34!oss-parent.pom(pom.original) (5942ms)
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml/oss-parent/34/jars/oss-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/34/oss-parent-34.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/fasterxml/oss-parent/34/oss-parent-34.jar
@@ -276,7 +423,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.pom(pom.original) (844ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.pom(pom.original) (2050ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.9.0 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.9.0 {}
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.9.0/ivys/ivy.xml
@@ -288,7 +435,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.0/jackson-parent-2.9.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.0/jackson-parent-2.9.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.0/jackson-parent-2.9.0.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.9.0!jackson-parent.pom(pom.original) (1486ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.9.0!jackson-parent.pom(pom.original) (1642ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;28 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml#oss-parent;28 {}
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml/oss-parent/28/ivys/ivy.xml
@@ -300,7 +447,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/28/oss-parent-28.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/28/oss-parent-28.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/28/oss-parent-28.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;28!oss-parent.pom(pom.original) (1924ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;28!oss-parent.pom(pom.original) (3081ms)
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml/oss-parent/28/jars/oss-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/28/oss-parent-28.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/fasterxml/oss-parent/28/oss-parent-28.jar
@@ -339,7 +486,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.pom(pom.original) (1973ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.pom(pom.original) (3086ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-base;2.9.8 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-base;2.9.8
 [debug] 		tried /Users/carlwang/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.9.8/bundles/jackson-core.jar
@@ -700,8 +847,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.13;2.6.0-M6 {test=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.13;2.6.0-M6
-[debug] 	found com.typesafe.akka#akka-testkit_2.13;2.6.0-M6 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.13;2.6.0-M6 {test=[default(compile)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-testkit_2.13/2.6.0-M6/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe.akka#akka-testkit_2.13;2.6.0-M6
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.pom
+[debug] 	public: found md file for com.typesafe.akka#akka-testkit_2.13;2.6.0-M6
+[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.pom (2.6.0-M6)
+[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.pom
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.13;2.6.0-M6!akka-testkit_2.13.pom(pom.original) (2536ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/com.typesafe.akka/akka-testkit_2.13/2.6.0-M6/jars/akka-testkit_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.jar
+[debug] 	found com.typesafe.akka#akka-testkit_2.13;2.6.0-M6 in public
 [debug] 	[2.6.0-M6] com.typesafe.akka#akka-testkit_2.13;2.6.0-M6
 [debug] == resolving dependencies default#scala_example_2.13;0.1->com.typesafe.akka#akka-testkit_2.13;2.6.0-M6 [test->runtime]
 [debug] == resolving dependencies default#scala_example_2.13;0.1->com.typesafe.akka#akka-testkit_2.13;2.6.0-M6 [test->compile]
@@ -736,8 +895,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.13;3.0.8 {test=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.13;3.0.8
-[debug] 	found org.scalatest#scalatest_2.13;3.0.8 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.13;3.0.8 {test=[default(compile)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scalatest/scalatest_2.13/3.0.8/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalatest#scalatest_2.13;3.0.8
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.pom
+[debug] 	public: found md file for org.scalatest#scalatest_2.13;3.0.8
+[debug] 		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.pom (3.0.8)
+[debug] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.pom
+[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.13;3.0.8!scalatest_2.13.pom(pom.original) (1671ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scalatest/scalatest_2.13/3.0.8/bundles/scalatest_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar
+[debug] 	found org.scalatest#scalatest_2.13;3.0.8 in public
 [debug] == resolving dependencies default#scala_example_2.13;0.1->org.scalatest#scalatest_2.13;3.0.8 [test->runtime]
 [debug] == resolving dependencies default#scala_example_2.13;0.1->org.scalatest#scalatest_2.13;3.0.8 [test->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -783,8 +954,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.13;3.0.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.13;3.0.8
-[debug] 	found org.scalactic#scalactic_2.13;3.0.8 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.13;3.0.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scalactic/scalactic_2.13/3.0.8/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalactic#scalactic_2.13;3.0.8
+[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.pom
+[debug] 	public: found md file for org.scalactic#scalactic_2.13;3.0.8
+[debug] 		=> https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.pom (3.0.8)
+[debug] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.pom
+[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.13;3.0.8!scalactic_2.13.pom(pom.original) (1713ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scalactic/scalactic_2.13/3.0.8/bundles/scalactic_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar
+[debug] 	found org.scalactic#scalactic_2.13;3.0.8 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -899,8 +1082,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.13;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.13;1.2.0
-[debug] 	found org.scala-lang.modules#scala-xml_2.13;1.2.0 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.13;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scala-lang.modules/scala-xml_2.13/1.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang.modules#scala-xml_2.13;1.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom
+[debug] 	public: found md file for org.scala-lang.modules#scala-xml_2.13;1.2.0
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom (1.2.0)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.13;1.2.0!scala-xml_2.13.pom(pom.original) (1391ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.scala-lang.modules/scala-xml_2.13/1.2.0/bundles/scala-xml_2.13.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar
+[debug] 	found org.scala-lang.modules#scala-xml_2.13;1.2.0 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.13.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalatest#scalatest_2.13;3.0.8->org.scala-lang.modules#scala-xml_2.13;1.2.0 [compile->compile(*)]
@@ -950,8 +1145,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.mockito#mockito-core;3.1.0 {test=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;3.1.0
-[debug] 	found org.mockito#mockito-core;3.1.0 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.mockito#mockito-core;3.1.0 {test=[default(compile)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.mockito/mockito-core/3.1.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.mockito#mockito-core;3.1.0
+[debug] 		tried https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.pom
+[debug] 	public: found md file for org.mockito#mockito-core;3.1.0
+[debug] 		=> https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.pom (3.1.0)
+[debug] downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.pom
+[debug] 	[SUCCESSFUL ] org.mockito#mockito-core;3.1.0!mockito-core.pom(pom.original) (3759ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.mockito/mockito-core/3.1.0/jars/mockito-core.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar
+[debug] 	found org.mockito#mockito-core;3.1.0 in public
 [debug] == resolving dependencies default#scala_example_2.13;0.1->org.mockito#mockito-core;3.1.0 [test->runtime]
 [debug] == resolving dependencies default#scala_example_2.13;0.1->org.mockito#mockito-core;3.1.0 [test->compile]
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->net.bytebuddy#byte-buddy;1.9.10 [compile->master(compile)]
@@ -962,8 +1169,41 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy;1.9.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: net.bytebuddy#byte-buddy;1.9.10
-[debug] 	found net.bytebuddy#byte-buddy;1.9.10 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: net.bytebuddy#byte-buddy;1.9.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy/1.9.10/ivys/ivy.xml
+[debug] 	local: no ivy file found for net.bytebuddy#byte-buddy;1.9.10
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+[debug] 	public: found md file for net.bytebuddy#byte-buddy;1.9.10
+[debug] 		=> https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom (1.9.10)
+[debug] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+[debug] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy;1.9.10!byte-buddy.pom(pom.original) (1438ms)
+[debug] sbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy-parent;1.9.10 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: net.bytebuddy#byte-buddy-parent;1.9.10 {}
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy-parent/1.9.10/ivys/ivy.xml
+[debug] 	local: no ivy file found for net.bytebuddy#byte-buddy-parent;1.9.10
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+[debug] 	public: found md file for net.bytebuddy#byte-buddy-parent;1.9.10
+[debug] 		=> https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom (1.9.10)
+[debug] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+[debug] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy-parent;1.9.10!byte-buddy-parent.pom(pom.original) (8159ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy-parent/1.9.10/jars/byte-buddy-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] CLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.jar
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy/1.9.10/jars/byte-buddy.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+[debug] 	found net.bytebuddy#byte-buddy;1.9.10 in public
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->net.bytebuddy#byte-buddy;1.9.10 [compile->compile(*)]
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->net.bytebuddy#byte-buddy;1.9.10 [compile->runtime(*)]
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->net.bytebuddy#byte-buddy;1.9.10 [compile->compile]
@@ -975,8 +1215,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy-agent;1.9.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: net.bytebuddy#byte-buddy-agent;1.9.10
-[debug] 	found net.bytebuddy#byte-buddy-agent;1.9.10 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: net.bytebuddy#byte-buddy-agent;1.9.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy-agent/1.9.10/ivys/ivy.xml
+[debug] 	local: no ivy file found for net.bytebuddy#byte-buddy-agent;1.9.10
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom
+[debug] 	public: found md file for net.bytebuddy#byte-buddy-agent;1.9.10
+[debug] 		=> https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom (1.9.10)
+[debug] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom
+[debug] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy-agent;1.9.10!byte-buddy-agent.pom(pom.original) (2075ms)
+[debug] sbt-chain: Checking cache for: dependency: net.bytebuddy#byte-buddy-parent;1.9.10 {}
+[debug] sbt-chain: module revision found in cache: net.bytebuddy#byte-buddy-parent;1.9.10
+[debug] 		tried /Users/carlwang/.ivy2/local/net.bytebuddy/byte-buddy-agent/1.9.10/jars/byte-buddy-agent.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+[debug] 	found net.bytebuddy#byte-buddy-agent;1.9.10 in public
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->net.bytebuddy#byte-buddy-agent;1.9.10 [compile->compile(*)]
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->net.bytebuddy#byte-buddy-agent;1.9.10 [compile->runtime(*)]
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->net.bytebuddy#byte-buddy-agent;1.9.10 [compile->compile]
@@ -988,8 +1242,41 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.13.0 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.13.0 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.13.0 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis;2.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.6
-[debug] 	found org.objenesis#objenesis;2.6 in sbt-chain
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.objenesis#objenesis;2.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.objenesis/objenesis/2.6/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.objenesis#objenesis;2.6
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom
+[debug] 	public: found md file for org.objenesis#objenesis;2.6
+[debug] 		=> https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom (2.6)
+[debug] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom
+[debug] 	[SUCCESSFUL ] org.objenesis#objenesis;2.6!objenesis.pom(pom.original) (2485ms)
+[debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis-parent;2.6 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.objenesis#objenesis-parent;2.6 {}
+[debug] 		tried /Users/carlwang/.ivy2/local/org.objenesis/objenesis-parent/2.6/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.objenesis#objenesis-parent;2.6
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom
+[debug] 	public: found md file for org.objenesis#objenesis-parent;2.6
+[debug] 		=> https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom (2.6)
+[debug] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom
+[debug] 	[SUCCESSFUL ] org.objenesis#objenesis-parent;2.6!objenesis-parent.pom(pom.original) (3940ms)
+[debug] 		tried /Users/carlwang/.ivy2/local/org.objenesis/objenesis-parent/2.6/jars/objenesis-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] CLIENT ERROR: Not Found url=http://maven.aliyun.com/nexus/content/groups/public/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.jar
+[debug] 		tried /Users/carlwang/.ivy2/local/org.objenesis/objenesis/2.6/jars/objenesis.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+[debug] 	found org.objenesis#objenesis;2.6 in public
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->org.objenesis#objenesis;2.6 [compile->compile(*)]
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->org.objenesis#objenesis;2.6 [compile->runtime(*)]
 [debug] == resolving dependencies org.mockito#mockito-core;3.1.0->org.objenesis#objenesis;2.6 [compile->compile]
@@ -2087,140 +2374,119 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.13;2.6.0-M6!akka-actor_2.13.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.13;2.6.0-M6!akka-persistence_2.13.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.30!slf4j-api.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.4!config.jar(bundle)
-[debug] no default ivy user dir defined: set to /Users/carlwang/.ivy2
-[debug] no default ivy user dir defined: set to /Users/carlwang/.ivy2
-[debug] no default ivy user dir defined: set to /Users/carlwang/.ivy2
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.jar ...
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar
-[debug] no default ivy user dir defined: set to /Users/carlwang/.ivy2
-[debug] no default ivy user dir defined: set to /Users/carlwang/.ivy2
-[debug] no default ivy user dir defined: set to /Users/carlwang/.ivy2
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/carlwang/.ivy2/cache
-[debug] no default cache defined: set to /Users/carlwang/.ivy2/cache
-[debug] no default cache defined: set to /Users/carlwang/.ivy2/cache
-[debug] no default cache defined: set to /Users/carlwang/.ivy2/cache
-[debug] no default cache defined: set to /Users/carlwang/.ivy2/cache
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/carlwang/.ivy2/cache
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/carlwang/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (48ms)
-[debug] 	default cache: /Users/carlwang/.ivy2/cache
-[debug] 	default resolver: default
-[debug] settings loaded (46ms)
-[debug] 	default cache: /Users/carlwang/.ivy2/cache
-[debug] settings loaded (48ms)
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	default cache: /Users/carlwang/.ivy2/cache
-[debug] 	-- 5 resolvers:
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (46ms)
-[debug] 	default cache: /Users/carlwang/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] settings loaded (49ms)
-[debug] 	default cache: /Users/carlwang/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	main [chain] [shared, public]
-[debug] settings loaded (49ms)
-[debug] 	-- 5 resolvers:
-[debug] 	local [file]
-[debug] 	default cache: /Users/carlwang/.ivy2/cache
-[debug] 	shared [file]
-[debug] 	default resolver: default
-[debug] 	default [chain] [local, main]
-[debug] 	-- 5 resolvers:
-[debug] 	public [ibiblio]
-[debug] 	shared [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	default [chain] [local, main]
-[debug] 	local [file]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.30!slf4j-api.jar (4855ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.4!config.jar(bundle) (18640ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.13;0.9.0!scala-java8-compat_2.13.jar (59097ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.9.0!protobuf-java.jar(bundle)
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.13;0.9.0!scala-java8-compat_2.13.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6!akka-protobuf-v3_2.13.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(bundle) (8151ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.13;3.0.8!scalatest_2.13.jar(bundle)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.13;2.6.0-M6!akka-testkit_2.13.jar
-[debug] 	[NOT REQUIRED] org.mockito#mockito-core;3.1.0!mockito-core.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.0!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.13;3.0.8!scalactic_2.13.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.13;1.2.0!scala-xml_2.13.jar(bundle)
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.9.10!byte-buddy.jar
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.9.10!byte-buddy-agent.jar
-[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.6!objenesis.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.0!scala-compiler.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(bundle) (3557ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.13/2.6.0-M6/akka-persistence_2.13-2.6.0-M6.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence_2.13;2.6.0-M6!akka-persistence_2.13.jar (77329ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(bundle) (27961ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(bundle) (31277ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.0-M6/akka-testkit_2.13-2.6.0-M6.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.13;2.6.0-M6!akka-testkit_2.13.jar (39983ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(bundle) (109395ms)
-[debug] :: resolution report :: resolve 52717ms :: artifacts dl 109400ms
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(bundle) (118020ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.9.0!protobuf-java.jar(bundle) (155044ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.0!scala-reflect.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar
+[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.13;3.0.8!scalactic_2.13.jar(bundle) (70942ms)
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+[info] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar
+[info] 	[SUCCESSFUL ] org.mockito#mockito-core;3.1.0!mockito-core.jar (88359ms)
+[debug] 		tried https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+[info] downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+[info] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy-agent;1.9.10!byte-buddy-agent.jar (3836ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+[info] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+[info] 	[SUCCESSFUL ] org.objenesis#objenesis;2.6!objenesis.jar (5495ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.0!scala-compiler.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0-M6/akka-protobuf-v3_2.13-2.6.0-M6.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf-v3_2.13;2.6.0-M6!akka-protobuf-v3_2.13.jar (215264ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.13;1.2.0!scala-xml_2.13.jar(bundle) (55869ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0-M6/akka-actor_2.13-2.6.0-M6.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.13;2.6.0-M6!akka-actor_2.13.jar (477646ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+[info] 	[SUCCESSFUL ] net.bytebuddy#byte-buddy;1.9.10!byte-buddy.jar (315907ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.13;3.0.8!scalatest_2.13.jar(bundle) (737426ms)
+[debug] :: resolution report :: resolve 160945ms :: artifacts dl 835957ms
 [debug] 	report for default#scala_example_2.13;0.1 compile produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example_2.13-compile.xml
 [debug] 	report for default#scala_example_2.13;0.1 runtime produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example_2.13-runtime.xml
 [debug] 	report for default#scala_example_2.13;0.1 test produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example_2.13-test.xml
@@ -2232,5 +2498,5 @@
 [debug] 	report for default#scala_example_2.13;0.1 plugin produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example_2.13-plugin.xml
 [debug] 	report for default#scala_example_2.13;0.1 pom produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example_2.13-pom.xml
 [debug] 	report for default#scala_example_2.13;0.1 scala-tool produced in /Users/carlwang/Project/scala_example/target/scala-2.13/resolution-cache/reports/default-scala_example_2.13-scala-tool.xml
-[debug] 	resolve done (52717ms resolve - 109400ms download)
+[debug] 	resolve done (160945ms resolve - 835957ms download)
 [info] Done updating.

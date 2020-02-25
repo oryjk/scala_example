@@ -24,7 +24,7 @@ gradle-app.setting
 # http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
 
 dist/*
-target/
+target/*
 lib_managed/
 src_managed/
 project/boot/
@@ -55,3 +55,4 @@ hs_err_pid*
 .idea/*
 project/target/*
 target/*
+target
