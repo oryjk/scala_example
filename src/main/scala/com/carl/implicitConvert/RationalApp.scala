@@ -8,14 +8,6 @@ object RationalApp extends App {
 
   println(1 + new Rational(1, 2))
 
-  implicit def int2Rational(x: Int): Rational = {
-    new Rational(x, 1)
-  }
-
-
-  implicit def rational2Int(x: Rational): Int = {
-    x.x / x.y
-  }
 
 }
 
@@ -25,4 +17,15 @@ class Rational(val x: Int, val y: Int) {
 
 
   def +(that: Rational): Rational = new Rational(x * that.y + that.x * y, y * that.y)
+}
+
+object Rational {
+  implicit def int2Rational(x: Int): Rational = {
+    new Rational(x, 1)
+  }
+
+
+  implicit def rational2Int(x: Rational): Int = {
+    x.x / x.y
+  }
 }
